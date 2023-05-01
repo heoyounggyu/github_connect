@@ -46,4 +46,5 @@ git add
 git commin -m  "작업올리기"
 
 
-
+github의 repository를 만들고 그 주소의 연결하기
+                git remote add origin https://github.com/heoyounggyu/css_flex.git
