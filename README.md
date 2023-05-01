@@ -5,7 +5,7 @@
 git을 통해서 github과 연결 할수 있다
 올려야함에 폴더에 가서 shift+ 우클릭하여  Powershell창열기
 
-git init
+                git init
 
 git 폴더가 생성됨
 
@@ -18,15 +18,15 @@ git을 통해서 github과 연결
 
 유저이름설정
 
-        git config --global user.name "your_name"
+           git config --global user.name "your_name"
         
 유저 이메일 설정하기 (반드시 github에 가입했던 이메일주소와 동일해야한다
 
-$ git config --global user.email "drg1230@naver.com"
+               git config --global user.email "drg1230@naver.com"
 
 
 내정보 확인 하기
-git config --list
+                git config --list
 
 위의 연결은 확인 컴퓨터에서 한번에 설정하면 됩
 ---------------------------------------------------
@@ -47,6 +47,7 @@ github에 코드 업로드하기
 
 
 github의 repository를 만들고 그 주소의 연결하기
+
                 git remote add origin https://github.com/heoyounggyu/css_flex.git
                 
  연결이 잘 되는었는지 확인 하기
