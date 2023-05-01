@@ -48,3 +48,10 @@ git commin -m  "작업올리기"
 
 github의 repository를 만들고 그 주소의 연결하기
                 git remote add origin https://github.com/heoyounggyu/css_flex.git
+                
+ 연결이 잘 되는었는지 확인 하기
+ 
+ git remote v
+          
+ githhub의 붙이기
+               git push origh master
