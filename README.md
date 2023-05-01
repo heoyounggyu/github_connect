@@ -57,3 +57,13 @@ github의 repository를 만들고 그 주소의 연결하기
  github의 붙이기
  
                git push origih master
+               
+ 수정하여 다시 업로드 할때
+ 
+    기존의 코드를 다운받는 행위를 해야 한다
+    
+    git puil origin master
+    
+    다시 push 해야한다
+    git push origih master
+      
