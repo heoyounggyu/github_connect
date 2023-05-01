@@ -22,11 +22,11 @@ git을 통해서 github과 연결
         
 유저 이메일 설정하기 (반드시 github에 가입했던 이메일주소와 동일해야한다
 
-$ gir config --global user.email "drg1230@naver.com"
-bash: gir: command not found
+$ git config --global user.email "drg1230@naver.com"
+
 
 내정보 확인 하기
-gir config --list
+git config --list
 
 위의 연결은 확인 컴퓨터에서 한번에 설정하면 됩
 ---------------------------------------------------
@@ -35,15 +35,15 @@ github에 코드 업로드하기
 
 초기화
 
-git init
+                git init
 
 추가할 파일(폴더안에 내용을 모두 틀림)
 
-git add
+                git add .
 
 히스토리 만들기 (-m을 메세지를 의미를 ""안에는 히스토리이름을 적용)
 
-git commin -m  "작업올리기"
+               git commit -m "first commit"  
 
 
 github의 repository를 만들고 그 주소의 연결하기
@@ -51,7 +51,7 @@ github의 repository를 만들고 그 주소의 연결하기
                 
  연결이 잘 되는었는지 확인 하기
  
- git remote v
+                git remote -v
           
- githhub의 붙이기
-               git push origh master
+ github의 붙이기
+               git push origih master
