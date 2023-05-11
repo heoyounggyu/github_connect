@@ -1,5 +1,9 @@
 # github_connect
 
+dir 내용물
+cd 폴더
+
+
 ##1.{깃설치}https://git-scm.com/download/win)
 
 git을 통해서 github과 연결 할수 있다
