@@ -82,7 +82,9 @@
  
  git clone https://github.com/heoyounggyu/github_connect.git
  
-2. 브렌치(branch) 만들기
+2. 브랜치(branch) 만들기
+
+git ckeckout -b 브랜치이름
 
 git checkout -b heoyounggyu
 
@@ -90,6 +92,7 @@ git add.
 
 git commin -m "하나카드"
 
+git push origin 브랜치이름
 git push origin heoyounggyu
 
 
