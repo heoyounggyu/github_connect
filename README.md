@@ -84,7 +84,7 @@
  
 2. 브랜치(branch) 만들기
 
-git ckeckout -b 브랜치이름
+git checkout -b 브랜치이름
 
 git checkout -b heoyounggyu
 
